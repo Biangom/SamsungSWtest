@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15684_사다리조작", "15
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15686_치킨배달", "15686_치킨배달\15686_치킨배달.vcxproj", "{F7236FF9-712A-4B04-80DA-09663974416D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "baek14501_퇴사", "baek14501_퇴사\baek14501.vcxproj", "{2D55BA39-B573-42B1-A9FF-5ACB635DD1F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{F7236FF9-712A-4B04-80DA-09663974416D}.Release|x64.Build.0 = Release|x64
 		{F7236FF9-712A-4B04-80DA-09663974416D}.Release|x86.ActiveCfg = Release|Win32
 		{F7236FF9-712A-4B04-80DA-09663974416D}.Release|x86.Build.0 = Release|Win32
+		{2D55BA39-B573-42B1-A9FF-5ACB635DD1F5}.Debug|x64.ActiveCfg = Debug|x64
+		{2D55BA39-B573-42B1-A9FF-5ACB635DD1F5}.Debug|x64.Build.0 = Debug|x64
+		{2D55BA39-B573-42B1-A9FF-5ACB635DD1F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D55BA39-B573-42B1-A9FF-5ACB635DD1F5}.Debug|x86.Build.0 = Debug|Win32
+		{2D55BA39-B573-42B1-A9FF-5ACB635DD1F5}.Release|x64.ActiveCfg = Release|x64
+		{2D55BA39-B573-42B1-A9FF-5ACB635DD1F5}.Release|x64.Build.0 = Release|x64
+		{2D55BA39-B573-42B1-A9FF-5ACB635DD1F5}.Release|x86.ActiveCfg = Release|Win32
+		{2D55BA39-B573-42B1-A9FF-5ACB635DD1F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

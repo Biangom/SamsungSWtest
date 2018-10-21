@@ -59,6 +59,24 @@ int test(int col) {
 // row부터 탐색시작
 // cnt 현재 사용한 사다리 갯 수
 void func(int row, int cnt, int max) {
+	if (cnt == max) {
+		if (testFunc()) {
+			result = cnt;
+			return;
+		}
+		return;
+	}
+
+	for (int i = row; i <= H; i++) {
+		for (int j = 1; j <= N; j++) {
+			// 양쪽 방문 안했을 시
+			if (map[i][j - 1] + map[i][j + 1] + map[i][j] == 0) {
+				map[i][j] = 1;
+				func(row, cnt + 1, max);
+				map[i][j] = 0;
+			}
+		}
+	}
 
 }
 
